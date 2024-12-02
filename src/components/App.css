@@ -2,9 +2,30 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
-    text-align: center;
-    gap: 40px;
+    gap: 24px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    font-size: 1.125rem;
+}
+body {
+    --red: #ff6f61;
+    --hred: #fc3b29;
+    --blue: #e4f2fa;
+    --hblue: #79ceff;
+    --green: #d4edda;
+    --sand: #fdf5e6;
+    --gold: #cea51d;
+    --grey: #708090;
+    --black: #292929;
+    --animation: 0.5s ease;
+    background-color: var(--sand);
+    color: var(--black);
+}
+* {
+    outline: none;
+}
+h1 {
+    font-size: 4rem;
+    line-height: 0.8;
+    color: var(--gold);
 }
